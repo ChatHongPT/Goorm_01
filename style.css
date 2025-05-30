@@ -33,6 +33,10 @@ body {
   margin-right: 50px;
 }
 
+.profile-icon:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
 .profile-icon img {
   width: 32px;
   height: 32px;

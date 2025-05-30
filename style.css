@@ -85,11 +85,15 @@ body {
 }
 
 .main-banner {
-  background-image: url("https://cdn.m-joongang.com/news/photo/202206/20220628_1_336319.jpg");
-  background-size: cover;
-  background-position: top center; 
-  position: relative;
-  margin-top: 60px;
+    width: 100%;
+    height: 70vh; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
 }
 
 .main-banner::after {
@@ -142,19 +146,20 @@ body {
 }
 
 .movie-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
 .movie-cards img {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
-  transition: transform 0.3s;
-  cursor: pointer;
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s;
 }
 
 .movie-cards img:hover {
-  transform: scale(1.1);
+    transform: scale(1.05);
 }

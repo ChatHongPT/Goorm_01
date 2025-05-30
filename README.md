@@ -24,7 +24,7 @@
 `main` 브랜치에 푸시할 때마다 `.github/workflows/deploy.yml` 파일이 실행되어  
 `gh-pages` 브랜치로 코드가 배포되고, GitHub Pages에서 웹사이트로 서비스됩니다.
 
-✅ 배포 주소: [https://yourusername.github.io/netflix-clone/](https://chathongpt.github.io/Groom_01/)
+✅ 배포 주소: [https://chathongpt.github.io/Groom_01/](https://chathongpt.github.io/Groom_01/)
 
 ```bash
 name: Deploy static HTML to GitHub Pages

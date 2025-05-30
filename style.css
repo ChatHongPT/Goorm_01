@@ -87,8 +87,7 @@ body {
 .main-banner {
   background-image: url("https://cdn.m-joongang.com/news/photo/202206/20220628_1_336319.jpg");
   background-size: cover;
-  background-position: center;
-  padding: 100px 30px 60px 30px;
+  background-position: top center; 
   position: relative;
   margin-top: 60px;
 }
@@ -143,13 +142,14 @@ body {
 }
 
 .movie-cards {
-  display: flex;
-  gap: 10px;
-  overflow-x: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
 }
 
 .movie-cards img {
-  width: 150px;
+  width: 100%;
+  height: auto;
   border-radius: 4px;
   transition: transform 0.3s;
   cursor: pointer;

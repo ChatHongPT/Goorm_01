@@ -30,7 +30,7 @@ body {
 .profile-icon {
   flex-shrink: 0;
   margin-left: 20px;
-  margin-right: 50px;
+  margin-right: 70px;
 }
 
 .profile-icon:hover img {
@@ -46,7 +46,7 @@ body {
 }
 
 .logo img {
-  height: 40px;
+  height: 60px;
   width: auto;
   object-fit: contain;
 }
@@ -54,7 +54,7 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 60px;
   margin: 0;
   padding: 0;
   max-width: 600px;
@@ -64,10 +64,16 @@ body {
 .nav-links li {
   cursor: pointer;
   font-size: 14px;
+  transition: color 0.3s, transform 0.2s;
 }
 
 .nav-links li:hover {
   text-decoration: underline;
+}
+
+.nav-links li:hover {
+  color: #e50914;
+  transform: scale(1.1);
 }
 
 .main-banner {
@@ -111,12 +117,13 @@ body {
   font-weight: bold;
   border-radius: 4px;
   font-size: 14px;
-  transition: background-color 0.3s, transform 0.2s;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
 }
 
 .banner-buttons button:hover {
   background-color: #f40612;
   transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(229, 9, 20, 0.4);
 }
 
 .movie-row {

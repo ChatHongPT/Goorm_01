@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write # gh-pages 브랜치로 푸시할 수 있도록 권한 부여
+
 jobs:
   deploy:
     runs-on: ubuntu-latest

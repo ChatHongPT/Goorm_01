@@ -3,7 +3,7 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![HTML](https://img.shields.io/badge/HTML-5-orange.svg)](https://developer.mozilla.org/ko/docs/Web/HTML)
 [![CSS](https://img.shields.io/badge/CSS-3-blue.svg)](https://developer.mozilla.org/ko/docs/Web/CSS)
-[![Netlify](https://img.shields.io/badge/배포-GitHubPages-brightgreen.svg)](https://yourusername.github.io/netflix-clone/)
+[![Netlify](https://img.shields.io/badge/CI/CD-GitHubPages-brightgreen.svg)](https://yourusername.github.io/netflix-clone/)
 
 ---
 

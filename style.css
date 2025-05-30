@@ -13,6 +13,14 @@ body {
   font-weight: 400;
 }
 
+.main-banner p.sub-text1 {
+  font-size: 15px;
+  color: white;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  font-weight: 400;
+}
+
 .navbar {
   height: 60px;
   padding: 0 40px;
@@ -77,7 +85,7 @@ body {
 }
 
 .main-banner {
-  background-image: url("https://mblogthumb-phinf.pstatic.net/MjAyMDA4MTZfMjU4/MDAxNTk3NTcwNzE0ODE3.pFizOnpGK2Nb9aiXP7P2yqGT4KsZoqTOSRrAfc7BuwUg.BbnmxuFofda7jhfupYWimbUFaKA2bjk46AX3AVbnk6og.PNG.lnk2721/SE-763ac00c-e135-437d-a8e7-8ea28e7b57dc.png?type=w800");
+  background-image: url("https://cdn.m-joongang.com/news/photo/202206/20220628_1_336319.jpg");
   background-size: cover;
   background-position: center;
   padding: 100px 30px 60px 30px;

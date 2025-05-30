@@ -1,4 +1,4 @@
-# Neflix Clone 🎬
+# Goorm Neflix Clone 🎬
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![HTML](https://img.shields.io/badge/HTML-5-orange.svg)](https://developer.mozilla.org/ko/docs/Web/HTML)
